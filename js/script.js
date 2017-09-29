@@ -1,6 +1,5 @@
-//2.4 Creating a simple bar chart
-
-var bardata = [20, 30, 45, 15];
+// 2.4 Creating a simple bar chart
+var bardata = [200, 300, 359, 15];
 var height = 400,
     width = 600,
     barWidth = 50,
@@ -26,7 +25,7 @@ d3.select('#viz').append('svg')
       return height - d;
     });
 
-//2.3 Drawing SVG graphics with D3
+// 2.3 Drawing SVG graphics with D3
 // d3.select('#viz')
 //   .append('svg')
 //     .attr('width', 600)
@@ -78,7 +77,7 @@ d3.select('#viz').append('svg')
 //   .attr('type', 'checkbox')
 //   .property('checked', true)
 
-// Binding data to the DOM
+// // Binding data to the DOM
 
 // d3.selectAll(".day-high .temp")
 //   .data([45, 46, 47, 48])
@@ -106,12 +105,12 @@ d3.select('#viz').append('svg')
 //     }
 //   })
 
-// Queuing Selections
+// // Queuing Selections
 
-// .enter() Subselections allow you to isolate methods and then act upon them. If you need to exit, use the exit method.
+// // .enter() Subselections allow you to isolate methods and then act upon them. If you need to exit, use the exit method.
 
 
-// this doesn't work. not sure why
+// // this doesn't work. not sure why
 // var mydata = [
 //   { date: '4/01/2017', low: 50, high: 78 },
 //   { date: '4/02/2017', low: 55, high: 79 },
